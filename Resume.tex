@@ -1,0 +1,111 @@
+\documentclass[10pt, letterpaper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+% Color definition - using dark blue for links to keep it professional yet interactive
+\definecolor{darkblue}{RGB}{0,0,139}
+
+% Hyperref setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=darkblue,
+    filecolor=magenta,      
+    urlcolor=darkblue,
+    pdftitle={Bokka Mohan Kiran - Resume},
+    pdfpagemode=FullScreen,
+}
+
+% Section formatting - Strict one-column layout
+\titleformat{\section}{\large\bfseries\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{10pt}{5pt}
+
+% Custom list settings for compact one-page fit
+\setlist[itemize]{noitemsep, topsep=2pt, leftmargin=1.5em}
+
+\begin{document}
+
+\pagestyle{empty}
+
+% Header - Section 2: Name, Email, GitHub, LinkedIn
+\begin{center}
+    {\LARGE \textbf{Bokka Mohan Kiran}} \\
+    \vspace{2pt}
+    \href{mailto:mohankiran07@protonmail.com}{mohankiran07@protonmail.com} | +91 XXXXX XXXXX \\
+    \href{https://linkedin.com/in/mohankiran07}{LinkedIn: mohankiran07} | \href{https://github.com/SoulByte07}{GitHub: SoulByte07}
+\end{center}
+
+% Key Skills (Position 2 as per Guidelines)
+\section{Key Skills}
+\begin{itemize}
+    \item \textbf{Cloud \& Infrastructure:} AWS (EC2, S3, RDS, VPC, Lambda, CloudFront, CloudWatch), Terraform
+    \item \textbf{CI/CD \& Containers:} Jenkins, Docker, Podman, Buildah, Docker Compose
+    \item \textbf{Automation \& Scripting:} Bash, Python, Linux, Rclone
+    \item \textbf{Database \& Analytics:} SQL, PostgreSQL, MySQL, Pandas, PowerBI
+\end{itemize}
+
+% Experience / Projects (Primary slot for high impact)
+\section{Projects}
+
+\noindent \textbf{AWS Scalable Web Architecture (Vocal4Local Migration)} \hfill \href{https://github.com/SoulByte07/AWS-Scalable-Web-Architecture}{GitHub} \\
+\textit{AWS (Route 53, CloudFront, ALB, ASG, RDS Multi-AZ), Terraform}
+\begin{itemize}
+    \item Migrated a legacy monolithic application to a 3-tier AWS architecture using Terraform, ensuring high availability and fault tolerance through Multi-AZ redundancy.
+    \item Secured application and database logic using private subnets and AWS WAF, achieving robust network isolation and edge protection.
+    \item Implemented CloudFront global edge caching to optimize performance and reduce latency for international customers.
+\end{itemize}
+
+\vspace{6pt}
+\noindent \textbf{Jenkins CI/CD Containerized Pipeline} \hfill \href{https://github.com/SoulByte07/Learn-Jenkins}{GitHub} \\
+\textit{Jenkins, Buildah, Podman, Python, Docker, Linux}
+\begin{itemize}
+    \item Engineered end-to-end CI/CD automation pipelines for Flask applications, streamlining build, test, and deployment stages.
+    \item Implemented daemonless container workflows using Buildah and Podman, enhancing environment security by eliminating Docker socket dependencies.
+    \item Provisioned reproducible development environments using Docker Compose to standardize local Jenkins stack deployments.
+\end{itemize}
+
+\vspace{6pt}
+\noindent \textbf{AWS Lambda Stopinator – Automated EC2 Cost Control} \hfill \href{https://github.com/SoulByte07/AWS-Lambda-Stopinator}{GitHub} \\
+\textit{AWS Lambda, EventBridge, IAM, Python 3.11}
+\begin{itemize}
+    \item Automated EC2 instance scheduling using AWS Lambda and EventBridge, eliminating idle resource expenses and enforcing operational cost discipline.
+    \item Configured least-privilege IAM policies for Lambda execution roles, ensuring secure API-level resource management and compliance.
+    \item Replaced manual instance management with a cloud-native serverless solution, improving reliability and reducing manual intervention.
+\end{itemize}
+
+\vspace{6pt}
+\noindent \textbf{Highly Available Multi-AZ VPC Network Infrastructure} \hfill \href{https://github.com/SoulByte07/AWS-Multi-Availability-Zone-VPC-Architecture}{GitHub} \\
+\textit{AWS VPC, IGW, NAT Gateway, EC2, Bash}
+\begin{itemize}
+    \item Deployed a fault-tolerant Multi-AZ VPC architecture on AWS, establishing secure network isolation across public and private subnets.
+    \item Automated web server provisioning using Bash User Data scripts, ensuring consistent and rapid infrastructure deployment.
+\end{itemize}
+
+\vspace{6pt}
+\noindent \textbf{IPL Cricket Data Analytics \& Visualization} \hfill \href{https://github.com/SoulByte07/IPL_Analysis}{GitHub} \\
+\textit{Python (Pandas), Jupyter Notebook, PowerBI}
+\begin{itemize}
+    \item Performed exploratory data analysis on IPL datasets using Python (Pandas), identifying key performance trends and player statistics for data-driven insights.
+    \item Built interactive PowerBI dashboards to visualize match outcomes, enhancing stakeholder reporting and visual storytelling.
+\end{itemize}
+
+% Education
+\section{Education}
+\noindent \textbf{B.Tech in Computer Science and Engineering} \hfill \href{https://srkrec.edu.in/}{SRKR Engineering College} \\
+CGPA: 8.7 \hfill Andhra Pradesh, India
+
+% Certifications
+\section{Certifications}
+\begin{itemize}
+    \item \textbf{\href{https://certificate.eduskillsfoundation.org/verify/4d6c9ddc4847b75c885f/4d6c9ddc4847b75c885f}{AI-Powered Cloud Engineer}} \& \textbf{\href{https://aictecert.eduskillsfoundation.org/pages/home/verify.php?cert=506c51bebf5346e89556de98be1e44ce}{AWS Cloud Fundamentals}} -- EduSkills Foundation
+    \item \textbf{\href{https://nptel.ac.in/noc/E_Certificate/NPTEL25CS120S65310101810650629}{CyberSecurity}} \& \textbf{\href{https://nptel.ac.in/noc/E_Certificate/NPTEL25CS113S25310089010650629}{Software Testing}} -- NPTEL
+    \item \textbf{\href{https://www.hackerrank.com/certificates/e0bfd3d447c0}{Advanced SQL}} -- HackerRank | \textbf{\href{https://coursera.org/verify/6D9HTS2HRFHG}{Google Project Management}} -- Coursera
+    \item \textbf{\href{https://courses.edx.org/certificates/58ec6b0d856f4649952df63980273ecd}{Data Analysis}} \& \textbf{\href{https://courses.edx.org/certificates/660fdd73a16a4cb5bade011d40915ae1}{PowerBI}} -- EdX
+\end{itemize}
+
+\end{document}
