@@ -40,6 +40,11 @@ Never list tasks. Always list business impact. Limit bullet points to 3-4 per ro
 
 **Non-Technical Backgrounds:** Reframe past experience to highlight transferable skills (e.g., Team Management = Leadership; Operations = Process Optimization).
 
+Avoid starting with "Accomplished." Lead with **Strong Action Verbs** (Designed, Built, Automated, Migrated)[cite: 1].
+
+*   **Structure:** [Action Verb] + [Specific Task/Tool] + [Measured Impact].[cite: 1]
+*   **Target:** 3-4 bullet points per project or role.[cite: 1]
+
 ## 4. Projects (The Portfolio)
 * **Rule 1:** No basic tutorial projects. 
 * **Focus:** Build solutions for real-world business problems (e.g., review Upwork job listings for ideas).
