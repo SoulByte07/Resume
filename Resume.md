@@ -42,9 +42,15 @@ mohankiran07@protonmail.com | [LinkedIn](https://linkedin.com/in/mohankiran07) |
 - Accomplished data-driven sports insights as measured by the identification of top-performing teams and player trends, by performing exploratory data analysis using Python.
 - Accomplished enhanced stakeholder reporting as measured by interactive visual storytelling, by building a PowerBI dashboard to complement deep-dive Jupyter Notebook analysis.
 
-## Education & Certifications
-- **B.Tech** - SRKR Engineering College (CGPA: 8.7)
-- **AI-Powered Cloud Engineer** - EduSkills Foundation
-- **AWS Cloud Fundamentals** - EduSkills Foundation
-- **CyberSecurity & Software Testing** - NPTEL
-- **HackerRank SQL (Advanced)**
+## Education
+- **B.Tech in Computer Science And Engineering** - [SRKR Engineering College](https://srkrec.edu.in/) (CGPA: 8.7)
+
+## Certifications
+- **AI-Powered Cloud Engineer** - [EduSkills Foundation](https://certificate.eduskillsfoundation.org/verify/4d6c9ddc4847b75c885f/4d6c9ddc4847b75c885f)
+- **AWS Cloud Fundamentals** - [EduSkills Foundation](https://aictecert.eduskillsfoundation.org/pages/home/verify.php?cert=506c51bebf5346e89556de98be1e44ce)
+- **CyberSecurity** - [NPTEL](https://nptel.ac.in/noc/E_Certificate/NPTEL25CS120S65310101810650629)
+- **Software Testing** - [NPTEL](https://nptel.ac.in/noc/E_Certificate/NPTEL25CS113S25310089010650629)
+- **HackerRank SQL (Advanced)** - [Verify](https://www.hackerrank.com/certificates/e0bfd3d447c0)
+- **Google Project Management** - [Coursera](https://coursera.org/verify/6D9HTS2HRFHG)
+- **Data Analysis** - [EdX](https://courses.edx.org/certificates/58ec6b0d856f4649952df63980273ecd)
+- **PowerBI** - [EdX](https://courses.edx.org/certificates/660fdd73a16a4cb5bade011d40915ae1)
