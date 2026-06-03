@@ -76,12 +76,12 @@ DevOps \& Cloud Engineer specializing in resilient, highly available infrastruct
 \end{itemize}
 
 \vspace{6pt}
-\noindent \textbf{AWS Lambda Stopinator – Automated EC2 Cost Control} \href{https://github.com/SoulByte07/AWS-Lambda-Stopinator}{\faGithub\ GitHub} \\
-\textit{AWS Lambda, EventBridge, IAM, Python 3.11}
+\noindent \textbf{Multi-Cloud Cost Hygiene Automation} \href{https://github.com/SoulByte07/Multi-Cloud-Cost-Hygiene-Automation}{\faGithub\ GitHub} \\
+\textit{LocalStack, Terraform, Python, GitHub Actions, AWS (EC2, EBS, S3, VPC)}
 \begin{itemize}
-    \item Automated EC2 instance scheduling using AWS Lambda and EventBridge, eliminating idle resource expenses and enforcing operational cost discipline.
-    \item Configured least-privilege IAM policies for Lambda execution roles, ensuring secure API-level resource management and compliance.
-    \item Replaced manual instance management with a cloud-native serverless solution, improving reliability and reducing manual intervention.
+    \item Built a local-first cloud cost detection workflow using LocalStack emulation and Terraform to provision baseline AWS infrastructure for identifying cost-wasting resources.
+    \item Developed a Python janitor CLI to discover unattached EBS volumes, stopped EC2 instances, and unassociated Elastic IPs with dry-run and safe deletion modes.
+    \item Implemented CI/CD pipeline via GitHub Actions automating LocalStack provisioning, Terraform validation, and janitor dry-run reporting with artifact uploads.
 \end{itemize}
 
 \vspace{6pt}

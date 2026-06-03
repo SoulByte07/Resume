@@ -7,3 +7,4 @@ https://github.com/SoulByte07/AWS-RDS-Multi-AZ-Web-Application
 https://github.com/SoulByte07/Amazon-EC2-Lifecycle-Management-Project
 https://github.com/SoulByte07/Learn-RDBMS
 https://github.com/SoulByte07/My-Scripts
+https://github.com/SoulByte07/Multi-Cloud-Cost-Hygiene-Automation
