@@ -6,7 +6,7 @@ linkedin.com/in/mohankiran07 | github.com/SoulByte07
 ---
 
 ## PROFILE SUMMARY
-- DevOps & Backend Engineer specializing in resilient, highly available infrastructure and backend systems. Experienced in designing Multi-AZ AWS architectures, building async API services with FastAPI, and automating CI/CD pipelines using GitHub Actions. Focused on implementing Infrastructure as Code (IaC) to streamline deployments and optimize system reliability.
+- DevOps & Backend Engineer specializing in resilient, highly available infrastructure and backend systems. Experienced in designing Multi-AZ AWS architectures, building async API services with FastAPI, and automating CI/CD pipelines using GitHub Actions. Focused on local-first cloud testing with LocalStack, containerized deployments, and Infrastructure as Code.
 
 ## KEY SKILLS
 - Cloud & Infrastructure: AWS (EC2, S3, RDS, VPC, Lambda, CloudFront, CloudWatch), Terraform
@@ -27,7 +27,7 @@ linkedin.com/in/mohankiran07 | github.com/SoulByte07
 ### Multi-Cloud Cost Hygiene Automation § GitHub
 > LocalStack, Terraform, Python, GitHub Actions, AWS (EC2, EBS, S3, VPC)
 - Reduced cloud testing overhead by building a local-first cost detection workflow with LocalStack and Terraform, eliminating the need for real AWS infrastructure during development.
-- Developed a Python janitor CLI to discover unattached EBS volumes, stopped EC2 instances, and unassociated Elastic IPs across 3 resource categories with dry-run and safe deletion modes.
+- Reduced risk of orphaned cloud resources by building a Python janitor CLI that detects 3 categories of idle assets (unattached EBS, stopped EC2, unassociated EIPs) with dry-run safety and Protected-tag skip.
 - Standardized infrastructure validation across 7 pipeline stages by implementing a GitHub Actions CI/CD workflow automating Terraform checks and janitor reporting.
 
 ### RankGuard – Async Transaction Processor & Leaderboard § GitHub
@@ -38,8 +38,8 @@ linkedin.com/in/mohankiran07 | github.com/SoulByte07
 
 ### IPL Cricket Data Analytics & Visualization § GitHub
 > Python (Pandas), Jupyter Notebook, PowerBI
-- Performed exploratory data analysis on IPL datasets using Python (Pandas), identifying key performance trends and player statistics for data-driven insights.
-- Built interactive PowerBI dashboards to visualize match outcomes, enhancing stakeholder reporting and visual storytelling.
+- Extracted actionable insights from 2 IPL datasets (matches, deliveries) by performing exploratory analysis with Python Pandas across 6 visualization dimensions including team performance and venue trends.
+- Enabled data-driven storytelling by building interactive PowerBI dashboards covering season distributions, top performers, and match outcome patterns.
 
 ---
 
