@@ -1,8 +1,8 @@
 ---
 Bokka Mohan Kiran
 DevOps / Backend Engineer
-mohankiran07@protonmail.com
-linkedin.com/in/mohankiran07 | github.com/SoulByte07
+SoulByte07@protonmail.com
+linkedin.com/in/SoulByte07 | github.com/SoulByte07
 ---
 
 ## PROFILE SUMMARY
