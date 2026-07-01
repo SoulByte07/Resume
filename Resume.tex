@@ -61,7 +61,7 @@ DevOps \& Cloud Engineer specializing in resilient, highly available infrastruct
 \noindent \textbf{AWS Scalable Web Architecture (Vocal4Local Migration)} \href{https://github.com/SoulByte07/AWS-Scalable-Web-Architecture}{\faGithub\ GitHub} \\
 \textit{AWS (Route 53, CloudFront, ALB, ASG, RDS Multi-AZ), Terraform, SOPS}
 \begin{itemize}
-    \item Migrated a legacy monolithic application to a 3-tier AWS architecture using Terraform, addressing 4 critical risks (single-point-of-failure, latency, security, scalability) with Multi-AZ redundancy and global edge caching.
+    \item Migrated a legacy monolithic application to a 3-tier AWS architecture using Terraform, addressing 4 critical risks (single-point-of-failure, latency, security, scalability) with Multi-AZ redundancy across 2 Availability Zones and global edge caching.
     \item Secured application and database logic using private subnets and AWS WAF, achieving robust network isolation and edge protection.
     \item Implemented CloudFront global edge caching to optimize performance and reduce latency for international customers.
 \end{itemize}
@@ -72,15 +72,15 @@ DevOps \& Cloud Engineer specializing in resilient, highly available infrastruct
 \begin{itemize}
     \item Built a local-first cloud cost detection workflow using LocalStack emulation and Terraform to provision baseline AWS infrastructure for identifying cost-wasting resources.
     \item Developed a Python janitor CLI to discover unattached EBS volumes, stopped EC2 instances, and unassociated Elastic IPs across 3 resource categories with dry-run and safe deletion modes.
-    \item Implemented CI/CD pipeline via GitHub Actions automating LocalStack provisioning, Terraform validation, and janitor dry-run reporting with artifact uploads.
+    \item Implemented a 7-stage CI/CD pipeline via GitHub Actions automating LocalStack provisioning, Terraform validation, and janitor dry-run reporting with artifact uploads.
 \end{itemize}
 
 \vspace{6pt}
 \noindent \textbf{RankGuard – Async Transaction Processor \& Leaderboard} \href{https://github.com/SoulByte07/RankGuard}{\faGithub\ GitHub} \\
 \textit{Python, FastAPI, PostgreSQL, SQLAlchemy 2.0, Alembic, Docker Compose, pytest}
 \begin{itemize}
-    \item Built an async FastAPI backend with idempotent transaction processing and per-user \texttt{asyncio.Lock} concurrency control for exactly-once guarantees.
-    \item Implemented a multi-factor ranking leaderboard with materialised score computation and atomic snapshot updates via SQLAlchemy 2.0 async sessions.
+    \item Built an async FastAPI backend across 4 database tables with idempotent transaction processing and per-user \texttt{asyncio.Lock} concurrency control for exactly-once guarantees.
+    \item Implemented a multi-factor ranking leaderboard with 3 transaction types (earn, spend, bonus) and materialised score computation and atomic snapshot updates via SQLAlchemy 2.0 async sessions.
     \item Containerized the application with Docker Compose, integrated Alembic for PostgreSQL schema migrations, and validated the system with 8 automated test cases.
 \end{itemize}
 
@@ -103,7 +103,6 @@ CGPA: 8.7/10
     \item \textbf{\href{https://certificate.eduskillsfoundation.org/verify/4d6c9ddc4847b75c885f/4d6c9ddc4847b75c885f}{AI-Powered Cloud Engineer}} \& \textbf{\href{https://aictecert.eduskillsfoundation.org/pages/home/verify.php?cert=506c51bebf5346e89556de98be1e44ce}{AWS Cloud Fundamentals}} -- EduSkills Foundation
     \item \textbf{\href{https://nptel.ac.in/noc/E_Certificate/NPTEL25CS120S65310101810650629}{CyberSecurity}} \& \textbf{\href{https://nptel.ac.in/noc/E_Certificate/NPTEL25CS113S25310089010650629}{Software Testing}} -- NPTEL
     \item \textbf{\href{https://www.hackerrank.com/certificates/e0bfd3d447c0}{Advanced SQL}} -- HackerRank | \textbf{\href{https://coursera.org/verify/6D9HTS2HRFHG}{Google Project Management}} -- Coursera
-    \item \textbf{\href{https://courses.edx.org/certificates/58ec6b0d856f4649952df63980273ecd}{Data Analysis}} \& \textbf{\href{https://courses.edx.org/certificates/660fdd73a16a4cb5bade011d40915ae1}{PowerBI}} -- EdX
 \end{itemize}
 
 \end{document}
