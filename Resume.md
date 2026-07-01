@@ -1,6 +1,6 @@
 ---
 Bokka Mohan Kiran
-DevOps / Cloud Engineer
+DevOps / Backend Engineer
 mohankiran07@protonmail.com
 linkedin.com/in/mohankiran07 | github.com/SoulByte07
 ---
