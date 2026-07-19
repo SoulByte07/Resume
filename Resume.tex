@@ -58,13 +58,17 @@ DevOps \& Backend Engineer specializing in resilient, highly available infrastru
 % Experience / Projects (Primary slot for high impact)
 \section{Projects}
 
-\noindent \textbf{AWS Scalable Web Architecture (Vocal4Local Migration)} \href{https://github.com/SoulByte07/AWS-Scalable-Web-Architecture}{\faGithub\ GitHub} \\
-\textit{AWS (Route 53, CloudFront, ALB, ASG, RDS Multi-AZ), Terraform, SOPS}
+
+\noindent \textbf{RankGuard – Async Transaction Processor \& Leaderboard} \href{https://github.com/SoulByte07/RankGuard}{\faGithub\ GitHub} \\
+\textit{Python, FastAPI, PostgreSQL, SQLAlchemy 2.0, Alembic, Docker Compose, pytest}
 \begin{itemize}
-    \item Eliminated 4 critical business risks (downtime, latency, data exposure, traffic surges) by migrating a legacy monolithic application to a 3-tier AWS architecture with Multi-AZ redundancy across 2 Availability Zones and global edge caching.
-    \item Achieved defense-in-depth network security by isolating application and database layers in private subnets behind AWS WAF.
-    \item Improved page load times for international users by serving static assets through CloudFront global edge caching.
+    \item Guaranteed exactly-once transaction processing across 4 database tables by building an async FastAPI backend with idempotency keys and per-user concurrency locks.
+    \item Enabled multi-factor scoring across 3 transaction types (earn, spend, bonus) by implementing materialized rank computation with atomic SQLAlchemy snapshot updates.
+    \item Streamlined deployment and schema consistency by containerizing with Docker Compose and automating PostgreSQL migrations via Alembic, validated by 8 tests.
 \end{itemize}
+
+
+
 
 \vspace{6pt}
 \noindent \textbf{Multi-Cloud Cost Hygiene Automation} \href{https://github.com/SoulByte07/Multi-Cloud-Cost-Hygiene-Automation}{\faGithub\ GitHub} \\
@@ -76,13 +80,19 @@ DevOps \& Backend Engineer specializing in resilient, highly available infrastru
 \end{itemize}
 
 \vspace{6pt}
-\noindent \textbf{RankGuard – Async Transaction Processor \& Leaderboard} \href{https://github.com/SoulByte07/RankGuard}{\faGithub\ GitHub} \\
-\textit{Python, FastAPI, PostgreSQL, SQLAlchemy 2.0, Alembic, Docker Compose, pytest}
+
+
+
+
+\noindent \textbf{AWS Scalable Web Architecture (Vocal4Local Migration)} \href{https://github.com/SoulByte07/AWS-Scalable-Web-Architecture}{\faGithub\ GitHub} \\
+\textit{AWS (Route 53, CloudFront, ALB, ASG, RDS Multi-AZ), Terraform, SOPS}
 \begin{itemize}
-    \item Guaranteed exactly-once transaction processing across 4 database tables by building an async FastAPI backend with idempotency keys and per-user concurrency locks.
-    \item Enabled multi-factor scoring across 3 transaction types (earn, spend, bonus) by implementing materialized rank computation with atomic SQLAlchemy snapshot updates.
-    \item Streamlined deployment and schema consistency by containerizing with Docker Compose and automating PostgreSQL migrations via Alembic, validated by 8 tests.
+    \item Eliminated 4 critical business risks (downtime, latency, data exposure, traffic surges) by migrating a legacy monolithic application to a 3-tier AWS architecture with Multi-AZ redundancy across 2 Availability Zones and global edge caching.
+    \item Achieved defense-in-depth network security by isolating application and database layers in private subnets behind AWS WAF.
+    \item Improved page load times for international users by serving static assets through CloudFront global edge caching.
 \end{itemize}
+
+
 
 % Education
 \section{Education}
