@@ -1,12 +1,13 @@
 ---
 Soul
-DevOps / Backend Engineer
+Backend Engineer
 SoulByte07@protonmail.com
 linkedin.com/in/SoulByte07 | github.com/SoulByte07
 ---
 
 ## PROFILE SUMMARY
-- DevOps & Backend Engineer specializing in resilient, highly available infrastructure and backend systems. Experienced in designing Multi-AZ AWS architectures, building async API services with FastAPI, and automating CI/CD pipelines using GitHub Actions. Focused on local-first cloud testing with LocalStack, containerized deployments, and Infrastructure as Code.
+- Backend Engineer specializing in resilient, highly available infrastructure and backend systems. Experienced in designing Multi-AZ AWS architectures, building async API services with FastAPI, and automating CI/CD pipelines using GitHub Actions. Focused on local-first cloud testing with LocalStack, containerized deployments, and Infrastructure as Code.
+
 
 ## KEY SKILLS
 - Cloud & Infrastructure: Terraform, AWS (EC2, VPC, S3, RDS, Lambda, CloudFront, CloudWatch)
