@@ -1,0 +1,90 @@
+\documentclass[10pt, letterpaper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+
+\definecolor{darkblue}{RGB}{0,0,139}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=darkblue,
+    filecolor=magenta,
+    urlcolor=darkblue,
+    pdftitle={Mohan Kiran Bokka - Cloud Engineer},
+    pdfpagemode=FullScreen,
+}
+
+\titleformat{\section}{\large\bfseries\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{10pt}{5pt}
+
+\setlist[itemize]{noitemsep, topsep=2pt, leftmargin=1.5em}
+
+\begin{document}
+
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \textbf{Mohan Kiran Bokka}} \\
+    \vspace{2pt}
+    {\large \textbf{Cloud Engineer}} \\
+    \faEnvelope\ \href{mailto:mohankiran07@protonmail.com}{mohankiran07@protonmail.com} \ | \ \faPhone\ +91 8919262144 \\
+    \faLinkedin\ \href{https://linkedin.com/in/mohankiran07}{linkedin.com/in/mohankiran07} \ | \ \faGithub\ \href{https://github.com/SoulByte07}{github.com/SoulByte07}
+\end{center}
+
+\section{Profile Summary}
+Cloud engineer experienced in designing multi-AZ AWS architectures, provisioning infrastructure with Terraform, implementing network security controls, and automating cloud operations. Built resilient, cost-efficient cloud solutions including scalable web architectures with global edge caching and automated resource lifecycle management. Focused on well-architected frameworks, infrastructure as code, and operational excellence.
+
+\section{Key Skills}
+\begin{itemize}
+    \item \textbf{Cloud Infrastructure:} AWS (VPC, EC2, S3, RDS, Lambda, CloudFront, Route 53, CloudWatch), multi-AZ architecture
+    \item \textbf{Infrastructure as Code:} Terraform, IaC, SOPS, infrastructure automation
+    \item \textbf{Networking \& Security:} VPC design, subnet segmentation, WAF, security groups, DNS, CDN
+    \item \textbf{Automation \& Scripting:} Python, Bash, Linux, GitHub Actions, Docker
+\end{itemize}
+
+\section{Projects}
+
+\noindent \textbf{AWS Scalable Web Architecture (Vocal4Local Migration)} \href{https://github.com/SoulByte07/AWS-Scalable-Web-Architecture}{\faGithub\ GitHub} \\
+\textit{AWS (Route 53, CloudFront, ALB, ASG, RDS Multi-AZ), Terraform, SOPS}
+\begin{itemize}
+    \item Eliminated 4 critical business risks (downtime, latency, data exposure, traffic surges) by migrating a legacy monolithic application to a 3-tier AWS architecture with Multi-AZ redundancy across 2 Availability Zones and global edge caching.
+    \item Isolated application and database tiers across 3 private subnets behind AWS WAF, achieving defense-in-depth network segmentation.
+    \item Reduced page load times for global users by serving static assets through CloudFront edge caching across 400+ points of presence.
+\end{itemize}
+
+\vspace{6pt}
+\noindent \textbf{Multi-Cloud Cost Hygiene Automation} \href{https://github.com/SoulByte07/Multi-Cloud-Cost-Hygiene-Automation}{\faGithub\ GitHub} \\
+\textit{LocalStack, Terraform, Python, GitHub Actions, AWS (EC2, EBS, S3, VPC)}
+\begin{itemize}
+    \item Eliminated recurring cloud infrastructure costs during development by building a local-first cost detection workflow with LocalStack and Terraform, removing dependency on real AWS environments.
+    \item Reduced risk of orphaned cloud resources by building a Python janitor CLI that detects 3 categories of idle assets (unattached EBS, stopped EC2, unassociated EIPs) with dry-run safety and Protected-tag skip.
+    \item Standardized infrastructure validation across 7 pipeline stages by implementing a GitHub Actions CI/CD workflow automating Terraform checks and janitor reporting.
+\end{itemize}
+
+\vspace{6pt}
+\noindent \textbf{RankGuard – Async Transaction Processor \& Leaderboard} \href{https://github.com/SoulByte07/RankGuard}{\faGithub\ GitHub} \\
+\textit{Python, FastAPI, PostgreSQL, SQLAlchemy 2.0, Alembic, Docker Compose, pytest}
+\begin{itemize}
+    \item Streamlined deployment and schema consistency by containerizing with Docker Compose and automating PostgreSQL migrations via Alembic, validated by 8 tests.
+    \item Guaranteed exactly-once transaction processing across 4 database tables by building an async FastAPI backend with idempotency keys and per-user concurrency locks.
+    \item Enabled multi-factor scoring across 3 transaction types (earn, spend, bonus) by implementing materialized rank computation with atomic SQLAlchemy snapshot updates.
+\end{itemize}
+
+\section{Education}
+\noindent \textbf{B.Tech in Computer Science and Engineering} \href{https://srkrec.edu.in/}{SRKR Engineering College, Andhra Pradesh, India} \hfill 2023-2027 \\
+CGPA: 8.5/10
+
+\section{Certifications}
+\begin{itemize}
+    \item \textbf{\href{https://certificate.eduskillsfoundation.org/verify/4d6c9ddc4847b75c885f/4d6c9ddc4847b75c885f}{AI-Powered Cloud Engineer}} \& \textbf{\href{https://aictecert.eduskillsfoundation.org/pages/home/verify.php?cert=506c51bebf5346e89556de98be1e44ce}{AWS Cloud Fundamentals}} -- EduSkills Foundation
+    \item \textbf{\href{https://nptel.ac.in/noc/E_Certificate/NPTEL25CS120S65310101810650629}{CyberSecurity}} \& \textbf{\href{https://nptel.ac.in/noc/E_Certificate/NPTEL25CS113S25310089010650629}{Software Testing}} -- NPTEL
+    \item \textbf{\href{https://www.hackerrank.com/certificates/e0bfd3d447c0}{Advanced SQL}} -- HackerRank | \textbf{\href{https://coursera.org/verify/6D9HTS2HRFHG}{Google Project Management}} -- Coursera
+\end{itemize}
+
+\end{document}

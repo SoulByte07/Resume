@@ -10,7 +10,7 @@ linkedin.com/in/SoulByte07 | github.com/SoulByte07
 
 ## KEY SKILLS
 - Cloud & Infrastructure: Terraform, AWS (EC2, VPC, S3, RDS, Lambda, CloudFront, CloudWatch)
-- Programming Languages & Tools: Python, Bash, Java, Go, Linux, Rclone, OOP
+- Programming Languages & Tools: Python, Bash, Java, Go, Linux, Rclone, OOP, REST API
 - CI/CD & Containers: GitHub Actions, Docker, Docker Compose, Jenkins, Podman, Buildah
 - Database & Analytics: PostgreSQL, SQL, MySQL, Pandas, PowerBI
 
@@ -21,12 +21,12 @@ linkedin.com/in/SoulByte07 | github.com/SoulByte07
 ### AWS Scalable Web Architecture (Vocal4Local Migration) (https://github.com/SoulByte07/AWS-Scalable-Web-Architecture.git)
 > AWS (Route 53, CloudFront, ALB, ASG, RDS Multi-AZ), Terraform, SOPS
 - Eliminated 4 critical business risks (downtime, latency, data exposure, traffic surges) by migrating a legacy monolithic application to a 3-tier AWS architecture with Multi-AZ redundancy across 2 Availability Zones and global edge caching.
-- Achieved defense-in-depth network security by isolating application and database layers in private subnets behind AWS WAF.
-- Improved page load times for international users by serving static assets through CloudFront global edge caching.
+- Isolated application and database tiers across 3 private subnets behind AWS WAF, achieving defense-in-depth network segmentation.
+- Reduced page load times for global users by serving static assets through CloudFront edge caching across 400+ points of presence.
 
 ### Multi-Cloud Cost Hygiene Automation (https://github.com/SoulByte07/Multi-Cloud-Cost-Hygiene-Automation)
 > LocalStack, Terraform, Python, GitHub Actions, AWS (EC2, EBS, S3, VPC)
-- Reduced cloud testing overhead by building a local-first cost detection workflow with LocalStack and Terraform, eliminating the need for real AWS infrastructure during development.
+- Eliminated recurring cloud infrastructure costs during development by building a local-first cost detection workflow with LocalStack and Terraform, removing dependency on real AWS environments.
 - Reduced risk of orphaned cloud resources by building a Python janitor CLI that detects 3 categories of idle assets (unattached EBS, stopped EC2, unassociated EIPs) with dry-run safety and Protected-tag skip.
 - Standardized infrastructure validation across 7 pipeline stages by implementing a GitHub Actions CI/CD workflow automating Terraform checks and janitor reporting.
 
@@ -46,4 +46,9 @@ CGPA: 8.5/10
 - AI-Powered Cloud Engineer & AWS Cloud Fundamentals -- EduSkills Foundation
 - CyberSecurity & Software Testing -- NPTEL
 - Advanced SQL -- HackerRank | Google Project Management -- Coursera
+
+## ACHIEVEMENTS
+- TCS Digital Systems Engineer Offer: Secured TCS Digital Systems Engineer placement offer through competitive on-campus recruitment.
+- NPTEL Gold Medalist -- Cyber Security: Awarded Elite + Gold Medal certification by NPTEL/IIT in Cyber Security (Top Percentile).
 ---
+
