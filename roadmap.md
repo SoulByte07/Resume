@@ -1,63 +1,64 @@
-# 🚀 Hybrid Skill Roadmap: 25+ LPA Cloud-Backend & Platform SDE Blueprint
+# 🚀 Official Hybrid Skill Roadmap: 25+ LPA Cloud-Backend & Platform SDE Blueprint
 
 > **Target Role:** SDE-1 / Backend Engineer / Cloud Platform Engineer at Tier-1 Product Companies (Google, Amazon, Uber, Atlassian, PhonePe, Swiggy, CRED, Salesforce)  
 > **Timeline:** August 2026 – March 2027  
-> **Learning Methodology:** **roadmap.sh Hybrid Model** — Isolated concept-focused Mini-Exercises for individual skill nodes + Periodic Milestone Mega-Projects that synthesize all previously learned skills into production-grade applications.
+> **Learning Methodology:** **roadmap.sh Hybrid Model** — Isolated concept-focused Mini-Exercises for individual skill nodes + Periodic Capstone Mega-Projects that synthesize all previously learned skills into production-grade applications. Sourced directly from standard [roadmap.sh/backend](https://roadmap.sh/backend) project ideas.
 
 ---
 
 ```mermaid
 flowchart TD
-    subgraph Phase 1 & 2: Skill Nodes & Mini-Exercises
-        P1[Go, gRPC, Postgres Tuning, Redis Lua, Kafka]
-        E1[🧩 Mini-Exercise 1: Slice vs Map Cache]
-        E2[🧩 Mini-Exercise 2: Worker Pool Queue]
-        E3[🧩 Mini-Exercise 3: Postgres EXPLAIN Benchmark]
-        E4[🧩 Mini-Exercise 4: Redis Lua Rate Limiter]
+    subgraph Phase 1 & 2: Backend Skill Nodes
+        P1[Go, REST/gRPC, Postgres, Redis, Kafka]
+        E1[🧩 Task Tracker CLI]
+        E2[🧩 GitHub User Activity CLI]
+        E3[🧩 Broadcast Server]
+        E4[🧩 Expense Tracker API]
+        E5[🧩 URL Shortener API]
     end
 
-    subgraph Milestone 1: Backend Mega-Project
-        M1[🏆 Mega-Project 1: StreamPulse<br/>High-Throughput Ingestion & Transaction Engine]
+    subgraph Milestone 1: Backend Capstone
+        M1[🏆 E-Commerce API Microservices<br/>gRPC + Postgres + Redis + Kafka]
     end
 
-    subgraph Phase 3 & 4: Cloud & Ops Skill Nodes
+    subgraph Phase 3 & 4: Cloud & DevOps Skill Nodes
         P2[AWS VPC, Terraform, Kubernetes, Helm, OpenTelemetry]
-        E5[🧩 Mini-Exercise 5: Terraform VPC Module]
-        E6[🧩 Mini-Exercise 6: Local K8s Deployment]
-        E7[🧩 Mini-Exercise 7: OTel Prometheus Exporter]
+        E6[🧩 Server Performance Stats CLI]
+        E7[🧩 Terraform AWS Deploy]
+        E8[🧩 Nginx Log Analyser]
+        E9[🧩 K8s Helm Deployment]
     end
 
-    subgraph Milestone 2: Cloud-Native Mega-Project
-        M2[🏆 Mega-Project 2: CloudPulse-Platform<br/>AWS EKS + Terraform + OpenTelemetry + Grafana]
+    subgraph Milestone 2: Cloud-Native Capstone
+        M2[🏆 E-Commerce CI/CD & Monitoring Stack<br/>AWS EKS + Terraform + OpenTelemetry + Grafana]
     end
 
     subgraph Phase 5: Resiliency & Security Nodes
-        E8[🧩 Mini-Exercise 8: Circuit Breaker Proxy]
-        E9[🧩 Mini-Exercise 9: AWS Secrets Manager Fetcher]
+        E10[🧩 Custom Rate Limiter]
+        E11[🧩 AWS Secrets Manager Fetcher]
     end
 
-    subgraph Milestone 3: Hardened Enterprise Mega-Project
-        M3[🏆 Mega-Project 3: Enterprise-Resilience-Gateway<br/>Vault/Secrets + Fault-Tolerant Mesh + LocalStack]
+    subgraph Milestone 3: Hardened Enterprise Capstone
+        M3[🏆 Custom API Gateway Edge Proxy<br/>Circuit Breakers + Auth + Retries]
     end
 
-    P1 --> E1 & E2 & E3 & E4 --> M1
-    M1 --> P2 --> E5 & E6 & E7 --> M2
-    M2 --> E8 & E9 --> M3
+    P1 --> E1 & E2 & E3 & E4 & E5 --> M1
+    M1 --> P2 --> E6 & E7 & E8 & E9 --> M2
+    M2 --> E10 & E11 --> M3
 ```
 
 ---
 
 ## 🎯 Skill Node Matrix (roadmap.sh Aligned)
 
-| Domain Node | Isolated Mini-Exercise Concept (Learn First) | Milestone Mega-Project Integration (Synthesize Later) |
+| Domain Node | roadmap.sh Mini-Exercise (Learn First) | Capstone Integration (Synthesize Later) |
 | :--- | :--- | :--- |
-| **Go & Concurrency** | Slice vs Map benchmarking, Bounded Worker Channels | Concurrent ingestion pipelines in **StreamPulse** |
-| **API Protocols** | gRPC `.proto` stubs & JSON size comparison | Dual REST + gRPC endpoints in **StreamPulse** |
-| **PostgreSQL & Redis** | `EXPLAIN ANALYZE` index tuning, Redis Lua rate limiter | Partitioned DB + Redis `ZSET` leaderboard in **StreamPulse** |
-| **Event Streaming** | Single-topic Kafka producer & consumer script | Transactional Kafka event queue in **StreamPulse** |
-| **AWS & Terraform** | Modular Terraform VPC & Subnet script | Full Infrastructure provisioning in **CloudPulse-Platform** |
-| **Kubernetes & Telemetry** | Local Helm Chart & OTel Prometheus endpoint | Multi-pod EKS deployment + Jaeger tracing in **CloudPulse-Platform** |
-| **Resiliency & Security** | Circuit Breaker proxy & AWS Secrets fetcher | Hardened Zero-Trust mesh in **Enterprise-Resilience-Gateway** |
+| **Go & File I/O** | [Task Tracker CLI](https://roadmap.sh/projects/task-tracker) | Foundational Go mechanics in **E-Commerce API** |
+| **APIs & Concurrency** | [Broadcast Server](https://roadmap.sh/projects/broadcast-server) & [GitHub Activity](https://roadmap.sh/projects/github-user-activity) | Inter-service gRPC mesh in **E-Commerce API** |
+| **PostgreSQL & Redis** | [Expense Tracker](https://roadmap.sh/projects/expense-tracker-api) & [URL Shortener](https://roadmap.sh/projects/url-shortener) | Partitioned DB + Caching in **E-Commerce API** |
+| **AWS & Terraform** | Deploy URL Shortener to AWS manually vs IaC | Full Infrastructure provisioning via IaC in **EKS Stack** |
+| **Kubernetes & Telemetry** | [Nginx Log Analyser](https://roadmap.sh/projects/nginx-log-analyser) & Local Helm Chart | Multi-pod EKS deployment + Jaeger tracing in **EKS Stack** |
+| **Resiliency & Security** | [Custom Rate Limiter](https://roadmap.sh/projects/rate-limiter) & Secrets Fetcher | Hardened Zero-Trust mesh in **Custom API Gateway** |
 
 ---
 
@@ -66,107 +67,109 @@ flowchart TD
 ### 🔹 Phase 1: Go Foundations, Concurrency & gRPC (Aug 2026 – Sep 2026)
 
 #### Skill Nodes & Isolated Mini-Exercises
-- [ ] **Go Core Internals**: Structs, interfaces, pointers, slice memory mechanics.
-  - 🧩 **Mini-Exercise 1.1:** *Slice vs Map In-Memory Benchmarker* — Write a 30-line Go script comparing lookup speeds and RAM usage for 100k items.
-- [ ] **Go Concurrency Primitives**: Goroutines, channels, `sync.WaitGroup`, `context.Context`.
-  - 🧩 **Mini-Exercise 1.2:** *Bounded Worker Queue* — Write a 50-line Go script processing 20 HTTP requests across a pool of 5 worker goroutines with a 2-second timeout.
-- [ ] **gRPC Protocols**: `.proto` schemas, Protobuf serialization, gRPC stubs.
-  - 🧩 **Mini-Exercise 1.3:** *Protobuf vs JSON Payload Comparison* — Write a `.proto` definition and compare binary byte size vs JSON string representation.
+- [x] **Go Core Internals**: Structs, interfaces, file I/O, CLI argument parsing.
+  - 🧩 **Mini-Exercise 1.1: [Task Tracker CLI](https://roadmap.sh/projects/task-tracker)** — Build a CLI to track tasks persisting state in a JSON file without external libraries.
+- [ ] **HTTP Clients & REST**: Network requests, JSON parsing, error handling.
+  - 🧩 **Mini-Exercise 1.2: [GitHub User Activity CLI](https://roadmap.sh/projects/github-user-activity)** — Build a CLI that fetches and displays recent activity for a specified GitHub user.
+- [ ] **Go Concurrency Primitives**: Goroutines, channels, TCP sockets.
+  - 🧩 **Mini-Exercise 1.3: [Broadcast Server](https://roadmap.sh/projects/broadcast-server)** — Build a concurrent server handling multiple TCP connections broadcasting messages across all clients.
 
 ---
 
 ### 🔹 Phase 2: High-Performance Storage & Event Streaming (Oct 2026 – Nov 2026)
 
 #### Skill Nodes & Isolated Mini-Exercises
-- [ ] **PostgreSQL Performance Tuning**: B-Tree, GIN indexes, composite indexes, `EXPLAIN ANALYZE`.
-  - 🧩 **Mini-Exercise 2.1:** *Query Optimizer Benchmark* — Populate a 500k-row PostgreSQL table, run `EXPLAIN ANALYZE` on unindexed queries, create a B-Tree index, and measure execution time drop.
-- [ ] **Redis Caching & Lua Scripts**: Redis Hashes, Sorted Sets (`ZSET`), Lua script execution.
-  - 🧩 **Mini-Exercise 2.2:** *Atomic Sliding-Window Rate Limiter* — Write a Redis Lua script enforcing a 10-req/min rate limit per API key.
+- [ ] **PostgreSQL Performance Tuning**: B-Tree/GIN indexes, composite indexes, `EXPLAIN ANALYZE`.
+  - 🧩 **Mini-Exercise 2.1: [Expense Tracker API](https://roadmap.sh/projects/expense-tracker-api)** — Build an API with advanced SQL aggregations and benchmark filtering queries before and after applying B-Tree indexes.
+- [ ] **Redis Caching & Key-Value Logic**: Caching, TTL, fast data retrieval.
+  - 🧩 **Mini-Exercise 2.2: [URL Shortener API](https://roadmap.sh/projects/url-shortener)** — Implement a URL shortener utilizing Redis for lightning-fast lookups and TTL expirations.
 - [ ] **Kafka Event Streaming**: Topics, Partitions, Consumer Groups, Idempotent Consumers.
-  - 🧩 **Mini-Exercise 2.3:** *Kafka Producer & Idempotent Consumer Script* — Set up a local Kafka topic in Docker, push 1,000 JSON events, and consume them with deduplication keys.
+  - 🧩 **Mini-Exercise 2.3: Idempotent Kafka Script** — Set up a local Kafka topic in Docker, push JSON events, and consume them with deduplication keys.
 
 ---
 
-#### 🏆 MEGA-PROJECT 1: `StreamPulse` (Backend Milestone)
-> **Goal:** Synthesize Phase 1 & 2 skills into a single high-throughput event processing backend application.  
+#### 🏆 MEGA-PROJECT 1: E-Commerce API (Backend Milestone)
+> **Goal:** Synthesize Phase 1 & 2 skills into a distributed [E-Commerce Microservices Architecture](https://roadmap.sh/projects/ecommerce-api).  
 > **Key Modules:**
-> 1. Ingestion via **gRPC** and **REST** protected by **Redis Lua Rate-Limiting**.
-> 2. Async event publishing to **Apache Kafka** with transactional producer guarantees.
-> 3. Worker pool consumers writing to **PostgreSQL** with **B-Tree/GIN indexes** and **Redis `ZSET` leaderboards**.
+> 1. Separate Go services for **Users, Products, and Orders** communicating securely via **gRPC**.
+> 2. Persistent storage via **PostgreSQL** with optimized indexing.
+> 3. Caching shopping carts and rate-limiting using **Redis**.
+> 4. Async event publishing to **Apache Kafka** for order-processing workflows.
 
 ---
 
 ### 🔹 Phase 3: AWS Core Infrastructure & Terraform IaC (Dec 2026 – Jan 2027)
 
 #### Skill Nodes & Isolated Mini-Exercises
-- [ ] **AWS Networking & IAM**: Multi-AZ VPC, Public/Private Subnets, NAT Gateways, ALB, IAM Roles.
-  - 🧩 **Mini-Exercise 3.1:** *LocalStack AWS Test Script* — Use LocalStack to simulate creation of S3 buckets and IAM policies via AWS CLI.
-- [ ] **Terraform Modules**: HCL syntax, Terraform state, reusable modules, variables.
-  - 🧩 **Mini-Exercise 3.2:** *Terraform VPC Module* — Write a reusable Terraform module provisioning a 2-AZ VPC with public/private subnets and internet gateways.
+- [ ] **Linux Compute & Systems**: Resource metrics, CPU, RAM, Disk.
+  - 🧩 **Mini-Exercise 3.1: [Server Performance Stats CLI](https://roadmap.sh/projects/server-stats)** — Build a tool analyzing underlying compute metrics (great prerequisite for Cloud EC2).
+- [ ] **AWS Networking & Terraform Modules**: Multi-AZ VPC, EC2, IAM, ALB.
+  - 🧩 **Mini-Exercise 3.2: Terraform AWS Deployment** — Take the URL Shortener API, manually deploy it on AWS EC2/RDS, then wipe it and automate the entire infrastructure via a reusable Terraform module.
 
 ---
 
 ### 🔹 Phase 4: Kubernetes & Full-Stack Telemetry (Jan 2027 – Feb 2027)
 
 #### Skill Nodes & Isolated Mini-Exercises
-- [ ] **Kubernetes Core & Helm**: Deployments, Services, Ingress, Helm Charts, HPA.
-  - 🧩 **Mini-Exercise 4.1:** *Single-Service Minikube Deployment* — Deploy a Go container onto Minikube using a custom Helm chart and trigger HPA auto-scaling under load.
-- [ ] **OpenTelemetry & Observability**: OTel SDK, Jaeger tracing, Prometheus metrics, Grafana dashboards.
-  - 🧩 **Mini-Exercise 4.2:** *OTel Prometheus Exporter Script* — Instrument a Go HTTP endpoint with OpenTelemetry to expose `/metrics` for Prometheus scraping.
+- [ ] **Log Aggregation & Systems**: Text parsing, analytics.
+  - 🧩 **Mini-Exercise 4.1: [Nginx Log Analyser](https://roadmap.sh/projects/nginx-log-analyser)** — Build a script to aggregate Nginx logs and output the top 5 requested paths/IPs.
+- [ ] **Kubernetes Core & Helm**: Deployments, Services, Ingress, Helm Charts.
+  - 🧩 **Mini-Exercise 4.2: Helm Minikube Deployment** — Package the Expense Tracker API into a Helm chart and deploy it onto a local Minikube cluster.
 
 ---
 
-#### 🏆 MEGA-PROJECT 2: `CloudPulse-Platform` (Cloud & DevOps Milestone)
-> **Goal:** Take `StreamPulse` and deploy it onto production cloud infrastructure with full observability.  
+#### 🏆 MEGA-PROJECT 2: E-Commerce CI/CD & Monitoring Stack (Cloud-Native Milestone)
+> **Goal:** Take the E-Commerce API and deploy it onto production cloud infrastructure with full observability.  
 > **Key Modules:**
-> 1. Provision **AWS EKS / ECS, RDS Postgres, ElastiCache Redis, and ALB** using **Terraform** modules.
-> 2. Package services into **Helm Charts** with **Horizontal Pod Autoscaling (HPA)**.
-> 3. Automate deployment using **GitHub Actions CI/CD**.
-> 4. Instrument end-to-end distributed tracing in **Jaeger** and latency dashboards in **Grafana**.
+> 1. Provision **AWS EKS, RDS Postgres, and ElastiCache** using **Terraform**.
+> 2. Package all microservices into **Helm Charts** with **Horizontal Pod Autoscaling (HPA)**.
+> 3. Automate deployment pipelines via **GitHub Actions CI/CD**.
+> 4. Instrument tracing with **OpenTelemetry**, visualizing cross-service calls in **Jaeger** and latency dashboards in **Grafana**.
 
 ---
 
 ### 🔹 Phase 5: Resiliency, Security & Production Hardening (Feb 2027 – March 2027)
 
 #### Skill Nodes & Isolated Mini-Exercises
-- [ ] **Circuit Breakers & Retries**: Closed/Open/Half-Open state machines, exponential backoff + jitter.
-  - 🧩 **Mini-Exercise 5.1:** *Faulty Proxy Retry Script* — Write a Go proxy that retries failed downstream requests with randomized jitter backoff.
-- [ ] **Secrets & Security**: AWS Secrets Manager / HashiCorp Vault, OAuth2 / JWT.
-  - 🧩 **Mini-Exercise 5.2:** *AWS Secrets Manager Fetcher* — Fetch dynamic database passwords from AWS Secrets Manager at app startup with zero hardcoded environment variables.
+- [ ] **Traffic Control Algorithms**: Token Bucket, Sliding Window.
+  - 🧩 **Mini-Exercise 5.1: [Build your own Rate Limiter](https://roadmap.sh/projects/rate-limiter)** — Implement various rate-limiting algorithms in Go targeting Redis.
+- [ ] **Secrets & Security**: Zero-hardcoded credentials.
+  - 🧩 **Mini-Exercise 5.2: AWS Secrets Manager Fetcher** — Fetch dynamic database passwords from AWS at application startup.
 
 ---
 
-#### 🏆 MEGA-PROJECT 3: `Enterprise-Resilience-Gateway` (Production Polish Milestone)
-> **Goal:** Harden the platform against security threats and cascading outages.  
+#### 🏆 MEGA-PROJECT 3: Custom API Gateway Edge Proxy (Enterprise Polish Milestone)
+> **Goal:** Harden the platform edge against security threats and cascading outages.  
 > **Key Modules:**
-> 1. Integrate **AWS Secrets Manager** for dynamic zero-hardcoded secret rotation.
-> 2. Wrap inter-service calls in **Circuit Breakers** and **Jitter Retries**.
-> 3. Validate cloud infrastructure deployment locally using **LocalStack** cost-hygiene workflows.
+> 1. Build an **Edge Proxy Gateway** in Go that sits in front of your Kubernetes cluster.
+> 2. Implement your **Rate Limiter** directly inside the Gateway.
+> 3. Integrate **AWS Secrets Manager** for dynamic zero-hardcoded secret rotation of JWT keys.
+> 4. Wrap inter-service calls in **Circuit Breakers** and **Exponential Backoff Retries** to survive partial backend outages.
 
 ---
 
-## 📝 Resume Bullet Point Transformation
+## 📝 Resume Bullet Point Transformation (Showcase Example)
 
 ```diff
-- Built FastAPI backend for processing transactions.
-+ Architected 'StreamPulse', a Go/gRPC event processing backend handling 5,000+ RPS, integrated with PostgreSQL index tuning, Redis Lua rate-limiting, and Kafka queues.
+- Built an E-commerce API for processing transactions.
++ Architected an event-driven Go/gRPC E-Commerce microservices backend, integrating PostgreSQL index tuning, Redis caching, and Kafka async workflows.
 
 - Deployed backend using Docker and AWS.
-+ Provisioned 'CloudPulse-Platform' on AWS EKS using Terraform & Helm, implementing OpenTelemetry distributed tracing (Jaeger) and Prometheus/Grafana monitoring.
++ Provisioned AWS EKS infrastructure using Terraform & Helm, implementing OpenTelemetry distributed tracing (Jaeger) and Prometheus/Grafana CI/CD monitoring stacks.
 
 - Added monitoring and error handling.
-+ Hardened service resiliency using AWS Secrets Manager, Circuit Breakers, and exponential backoff retry policies with randomized jitter.
++ Hardened service edge by engineering a custom API Gateway with AWS Secrets Manager integration, Circuit Breakers, and exponential backoff retry policies.
 ```
 
 ---
 
 ## 💡 Summary Progress Checklist
 
-- [ ] **Phase 1 Mini-Exercises** (Slice vs Map, Worker Pool, Protobuf vs JSON)
-- [ ] **Phase 2 Mini-Exercises** (Postgres EXPLAIN, Redis Lua, Kafka Producer/Consumer)
-- [ ] 🏆 **Mega-Project 1:** `StreamPulse` (Backend Milestone)
-- [ ] **Phase 3 Mini-Exercises** (LocalStack AWS, Terraform VPC Module)
-- [ ] **Phase 4 Mini-Exercises** (Helm Minikube, OTel Prometheus Endpoint)
-- [ ] 🏆 **Mega-Project 2:** `CloudPulse-Platform` (Cloud-Native Milestone)
-- [ ] **Phase 5 Mini-Exercises** (Jitter Retry Proxy, Secrets Fetcher)
-- [ ] 🏆 **Mega-Project 3:** `Enterprise-Resilience-Gateway` (Production Hardening Milestone)
+- [ ] **Phase 1 Mini-Exercises** (Task Tracker, GitHub Activity, Broadcast Server)
+- [ ] **Phase 2 Mini-Exercises** (Expense Tracker, URL Shortener, Kafka Script)
+- [ ] 🏆 **Mega-Project 1:** `E-Commerce API Microservices` (Backend Milestone)
+- [ ] **Phase 3 Mini-Exercises** (Server Stats CLI, Terraform URL Shortener Deploy)
+- [ ] **Phase 4 Mini-Exercises** (Nginx Log Analyser, Helm Minikube)
+- [ ] 🏆 **Mega-Project 2:** `EKS Full CI/CD & Monitoring Stack` (Cloud-Native Milestone)
+- [ ] **Phase 5 Mini-Exercises** (Rate Limiter, Secrets Fetcher)
+- [ ] 🏆 **Mega-Project 3:** `Custom API Gateway Edge Proxy` (Production Hardening Milestone)
